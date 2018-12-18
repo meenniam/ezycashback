@@ -1,0 +1,35 @@
+.productContainer{
+  text-align: center;
+  min-height: 670px;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+}
+
+
+
+.productParallax{
+  background-image: url("https://www.fennek-grill.de/wp-content/uploads/2017/05/fennek_grill_masse_02-1600x800.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+
+.productCenter{
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.productCaption{
+  position: absolute;
+  color: #fff;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  border: 3px solid #fff;
+  vertical-align: middle;
+}

@@ -1,0 +1,136 @@
+.sponserContainer{
+  text-align: center;
+  padding: 30px;
+  background-image: url('https://www.backgroundkeren.com/wp-content/uploads/2018/06/backabstract-background-ground_14.png');
+  background-size: 100% 400px;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.centerSponser{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.cardSponser{
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40%;
+  background-color:  white;
+  overflow: hidden;
+  position: relative;
+  border-top: 5px solid #8B0000;
+}
+
+.head{
+  padding: 30px 30px 0px 30px;
+}
+
+.title{
+  position: absolute;
+  background: #8B0000;
+  margin-left: -30px;
+  width: 60%;
+  padding: 30px;
+  transform: skewX(340deg);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  font-size: 20px;
+}
+
+.forms{
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.col-3{
+    position: relative;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+
+.effect-1{
+    border: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+
+.effect-1 ~ .focus-border{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3399FF;
+    transition: 0.6s;
+}
+.effect-1:focus ~ .focus-border{
+    width: 100%;
+    transition: 0.6s;
+}
+
+.spon-flex{
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  align-items: center;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  margin: 6px;
+  border: 6px solid #000;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #00BFFF transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width:600px){
+  .cardSponser{
+    width: 95%;
+
+  }
+
+  iframe{
+    height: 150px;
+  }
+
+  .title{
+    width: 90%;
+    font-size: 15px;
+  }
+
+}

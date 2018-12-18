@@ -1,0 +1,62 @@
+.elearnContainer{
+  text-align: center;
+  padding: 30px;
+}
+
+.rowElearn{
+  padding: 30px;
+  text-align: left;
+}
+
+h1.elearn{
+  color: Turquoise ;
+}
+
+p.elearn{
+  color: SeaGreen  ;
+}
+
+hr.elearn {
+  width: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  color: FireBrick  ;
+  background-color: FireBrick  ;
+  height: 3px;
+}
+
+.animation-element{
+  border-radius: 10px;
+  padding: 20px;
+}
+.animation-element:hover{
+  background-color: #F5F5F5;
+}
+
+.animation-element.slide-left {
+  opacity: 0;
+}
+
+.animation-element.slide-left.in-views {
+  opacity: 1;
+
+}
+
+.imgElearn{
+  margin-left: 25%;
+}
+
+@media only screen and (max-width:500px){
+  .imgElearn{
+    margin-left: 0px;
+  }
+  .animation-element{
+    padding: 2px;
+  }
+
+  .rowElearn{
+    padding: 0px;
+
+  }
+
+}

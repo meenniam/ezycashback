@@ -1,0 +1,41 @@
+.aboutContainer{
+  text-align: center;
+  padding: 30px;
+
+}
+
+.aboutParallax{
+  background-image: url("https://www.fennek-grill.de/wp-content/uploads/2017/05/fennek_grill_masse_02-1600x800.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+
+.aboutCenter{
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.aboutCaption{
+  position: absolute;
+  color: #fff;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  border: 3px solid #fff;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width:800px){
+
+  .aboutParallax{
+
+    background-attachment: scroll;
+
+  }
+}
